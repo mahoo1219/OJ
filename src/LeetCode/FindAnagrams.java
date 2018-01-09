@@ -55,7 +55,7 @@ public class FindAnagrams {
         return c - 'a' + 1;
     }
 
-    // TODO unfinished 滑动窗口模板方法
+    // TODO 滑动窗口模板方法
     public List<Integer> slidingWindowTemplate(String s, String t) {
         //init a collection or int value to save the result according the question.
         List<Integer> result = new LinkedList<>();
